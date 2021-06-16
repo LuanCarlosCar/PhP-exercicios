@@ -4,10 +4,10 @@
 
 
 
-$peso =50;
-$altura = 1.75;
+$peso =75;
+$altura = 1.83;
 
-$imc= $altura * $altura / $peso;
+$imc= $peso/$altura * $altura;
 
 if($imc<18.5){
     echo "Abaixo do peso";
