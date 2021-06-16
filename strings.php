@@ -8,6 +8,7 @@ echo "Ola mundo\n"; // "\n"(new line) esta quebrando a linha/ gerando uma nova l
 echo '\n'; // estou informando que "\n" e apenas uma string
 echo "\t"; // estou gerando um 'tab'(espaço no textto)
 echo "Sou o luan, tenho $idade anos";
+echo "Olá mundo!" . PHP_EOL; // forma mais semantica de gerar uma nova linha 
 
 
 
