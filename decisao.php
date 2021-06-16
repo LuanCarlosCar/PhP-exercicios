@@ -30,8 +30,8 @@ $QuantidadeDePessoas= 2 ;
 echo "Vocé só pode entrar se tiver a partir de 18 anos ou a partir de 16 anos com acompanhante." . PHP_EOL;
 
 if($idade >= 18) {
-    echo "voce tem $idade anos." . PHP_EOL;
-    echo 'Pode entrar';
+    echo "voce tem $idade anos. 'Pode entrar'" . PHP_EOL;
+    
 
 
 }else if($idade >= 16 && $QuantidadeDePessoas > 1){
@@ -40,3 +40,9 @@ if($idade >= 18) {
 }else{
     echo "Você nao tem a idade necessaria";
 }
+
+//Ternario
+
+$idade = 15;
+$mensagem = $idade < 18 ? 'Você é menor de idade' : "Você é maior de idade";
+echo $mensagem;
