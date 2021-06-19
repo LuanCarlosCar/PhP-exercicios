@@ -1,0 +1,1 @@
+include 'nome do arquivo'; // com isso temos acesso a todas informaçoes de outro arquivo php
