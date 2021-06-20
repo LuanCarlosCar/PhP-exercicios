@@ -1,13 +1,24 @@
 
 -- Chamda de arquivo:
-include 'nome do arquivo'; // com isso temos acesso a todas informaçoes de outro arquivo php
-require 'nome do arquivo'; // ele faz o mesmo que o comando anterior, porem estamos falando para o php que esse arquivo e super importante para a aplicacao
-require_once 'nome do arquivo';// ele olha se o arquivo ja foi compilado em outro local, assim ele nao precisa chamar duas vezes
+[] include 'nome do arquivo'; --------// com isso temos acesso a todas informaçoes de outro arquivo php
+[] require 'nome do arquivo'; --------// ele faz o mesmo que o comando anterior, porem estamos falando para o php que esse arquivo e super importante para a aplicacao
+[] require_once 'nome do arquivo';--------// ele olha se o arquivo ja foi compilado em outro local, assim ele nao precisa chamar duas vezes
 
 --comandos
 
-unset(); //responsavel por excluir um dado na memoria
+[] unset(); --------//responsavel por excluir um dado na memoria
+[] $conta1->nome = 'luan' --------// estou acessando um atributo da minha classe e renomeando ela
+[] &this  --------//No código $umaConta->depositar(500), dentro do método depositar, $this possui a referência para o mesmo objeto que $umaConta.
+[] exit() --------//ele para o cotigo inteiro
 
 --html/php
 [] para imprimir algum valor podemos usar <?= $valor ?>
+
+
+
+
+
+
+
+
  
